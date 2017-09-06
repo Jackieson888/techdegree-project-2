@@ -1,0 +1,48 @@
+/*Font*/
+p, h1, h2, h3, h4, li {
+    font-family: 'Droid Sans', sans-serif;
+}
+h2 {
+    color: #4b4b4b;
+}
+.portfolio-item img {
+    width: 85vw;
+}
+.portfolio-item p {
+    padding:5%;
+    color: #3b3b3b;
+}
+.portfolio-item {
+    text-align: center;
+}
+.wrapper {
+    text-align:center;
+    width: 100%;
+    margin:auto;
+    background-color: #fff;
+    padding-top:5%;
+}
+header {
+    background-color: #fafafa;
+    margin: auto;
+}
+header p {
+    color: #8d8d8d;
+    text-align:center;
+    padding: 5%;
+}
+header img {
+    width: 75vw;
+    margin: auto;
+}
+li {
+    font-weight: bolder;
+    font-size: 1.25em;
+    text-transform:uppercase;
+    margin: 5px;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 5%;
+    display: inline-block;
+}
