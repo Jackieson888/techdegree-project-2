@@ -26,6 +26,7 @@ h2 {
 }
 header {
     background-color: #fafafa;
+    margin-top: -20px;
 }
 header p {
     color: #8d8d8d;
@@ -37,23 +38,40 @@ li {
     font-size: 1.25em;
     text-transform:uppercase;
     margin: 5px;
-    text-align: center;
     background-color: #fff;
-    width: 100%;
+    width: 85%;
     padding: 5%;
     display: inline-block;
 }
+
 footer {
 
 }
 .contact-wrapper {
-    width: 85%;
-    margin:auto;
+    width: 100%;
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    background-color: #fafafa;
 }
 .contact-wrapper p {
     color: #3b3b3b;
+    padding: 5%; 
+}
+.profile {
+    align-content:center;
 }
 .profile img {
+    display:block;
     width: 75%;
     margin: auto;
+}
+nav {
+ text-align: center;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
 }
