@@ -4,6 +4,8 @@ p, h1, h2, h3, h4, li {
 }
 h2 {
     color: #4b4b4b;
+    font-size: 1em;
+    text-transform:uppercase;
 }
 .portfolio-item img {
     width: 85vw;
@@ -24,16 +26,11 @@ h2 {
 }
 header {
     background-color: #fafafa;
-    margin: auto;
 }
 header p {
     color: #8d8d8d;
     text-align:center;
     padding: 5%;
-}
-header img {
-    width: 75vw;
-    margin: auto;
 }
 li {
     font-weight: bolder;
@@ -45,4 +42,18 @@ li {
     width: 100%;
     padding: 5%;
     display: inline-block;
+}
+footer {
+
+}
+.contact-wrapper {
+    width: 85%;
+    margin:auto;
+}
+.contact-wrapper p {
+    color: #3b3b3b;
+}
+.profile img {
+    width: 75%;
+    margin: auto;
 }
