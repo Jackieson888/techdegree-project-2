@@ -95,20 +95,33 @@ a {
 @media (min-width:768px ) {
     li {
         display:inline;
+
     }
     .profile img {
     float:right;
     width: 40%;
+    margin: 5%;
     }
     .portfolio-item {
         float:left;
         width: 40%;
+        margin-left: 5%;
     }
     .portfolio-item:nth-child(odd) {
         float:right;
+        margin-right: 5%;
+        margin-left: 0;
     }
     .portfolio-item img {
     width: 40vw;
+    }
+    header p {
+        display: block;
+        margin-right: 50%;
+        padding-top: 10%;
+    }
+    nav {
+        display: inline;
     }
 }
 .clearfix:after {
